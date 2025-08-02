@@ -1,0 +1,254 @@
+/* Pet and Owner Details */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('/bg5.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+}
+
+.logo{
+    display: flex;
+     gap: 15px;
+}
+
+/* styles/globals.css or your component-specific CSS file */
+
+h1 {
+  font-size: 2rem;       /* For quote/title */
+  font-weight: 700;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 2rem;
+}
+
+h3 {
+  text-align: center;
+  font-size: 1.5rem;      /* For "Hey Hooman!" */
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+ul {
+  font-size: 1.1rem;      /* Pet info list */
+  list-style: disc;
+  padding-left: 1.5rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+
+/* //PET INFO */
+.pet-card {
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  padding: 20px;
+  max-width: 300px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.pet-card ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.pet-card li {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+.pet-card:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.3s ease;
+}
+
+img.dog-photo {
+  width: 450px;        /* Try 260–300px */
+  height: 450px;
+  object-fit: cover;
+  border-radius: 50%;
+   object-position: top center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-right: 100px;
+    margin-bottom: 40px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.Information-wrapper{
+    padding: 30px 40px;
+    padding-bottom: 100px;
+}
+
+.petInfo-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 40px;
+  flex-wrap: wrap;
+
+}
+
+.petDetails-wrapper{
+    margin: auto;
+    margin-bottom: 150px;
+}
+
+.content-wrapper {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.pet-card {
+   background-color: rgb(90, 156, 116);
+  padding-left: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.ownerDetails-card {
+  margin: auto;
+  padding-left: 400px;
+  width: 500px;
+  background-color: rgb(90, 156, 116);
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  padding-left: 40px;
+}
+
+.pet-card ul {
+  /* list-style: none; */
+  padding: 0;
+}
+
+.pet-card li {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.ownerDetails-card h3 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.ownerDetails-card ul {
+  /* list-style: none; */
+  padding: 0;
+}
+
+.ownerDetails-card li {
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
+
+/* ========== MEDIA QUERIES ========== */
+
+/* For tablets and smaller laptops */
+@media (max-width: 900px) {
+  .petInfo-wrapper {
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+  }
+
+  img.dog-photo {
+   width: 400px;        /* Try 260–300px */
+   height: 400px;
+   object-fit: cover;
+   border-radius: 50%;
+   object-position: top center;
+   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+   margin-left: 100px;
+  }
+  .petImage {
+    max-width: 300px;
+  }
+
+  .content-wrapper {
+    width: 100%;
+    align-items: center;
+  }
+
+  .ownerDetails-card {
+    width: 80%;
+    padding-left: 40px;
+  }
+}
+
+/* For mobile phones */
+@media (max-width: 600px) {
+  .petInfo-wrapper {
+    padding: 20px;
+  }
+  .navbar{
+    display:flex;
+    flex-direction: column;
+    gap:20px
+  }
+
+  img.dog-photo {
+   width: 300px;        /* Try 260–300px */
+   height: 300px;
+   object-fit: cover;
+   border-radius: 50%;
+   object-position: top center;
+   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+   margin-left: 100px;
+  }
+
+  .nav-link{
+    margin: auto;
+  }
+  .petImage {
+    max-width: 250px;
+  }
+
+  .pet-card h1 {
+    font-size: 2rem;
+  }
+
+  .pet-card li,
+  .ownerDetails-card li {
+    font-size: 1rem;
+  }
+
+  .ownerDetails-card h3 {
+    font-size: 1.5rem;
+  }
+
+  .pet-card {
+    background-color: rgb(90, 156, 116);
+    padding-left: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+
+  .ownerDetails-card {
+    padding-left: 40px;
+    width: 100%;
+    background-color: rgb(90, 156, 116);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    padding-left: 40px;
+   }
+
+   
+}

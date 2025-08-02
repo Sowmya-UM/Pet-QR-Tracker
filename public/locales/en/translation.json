@@ -1,0 +1,22 @@
+{
+  "owner_details": "Owner Details",
+  "name": "Name",
+  "email": "Email",
+  "location": "Location",
+  "phone_number": "Phone Number",
+  "owner.name": "Name: Sowmya",
+  "owner.email": "Email: sowmyanm11@gmail.com",
+  "owner.location": "Location: Bangalore, India",
+  "owner.phone_number": "Phone Number: +91 9876543210",
+  "pet_details": "Pet Details",
+  "breed": "Breed",
+  "age": "Age",
+  "color": "Color",
+  "Every Tag Tells a Story. Let Yours Lead Them Home.": "Every tag tells a story. Let yours lead them home.",
+  "Hey Hooman! It's Me!": "Hey hooman! It's me!",
+  "Hi there, I'm the human behind Shiroo!": "Hi there, I'm the human behind Shiroo!",
+  "pet.name": "Name: Shiroo",
+  "pet.breed": "Breed: Golden Retriever",
+  "pet.age": "Age: 2 years",
+  "pet.color": "Color: Brown"
+}

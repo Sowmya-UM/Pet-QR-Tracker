@@ -1,0 +1,22 @@
+{
+  "owner_details": "स्वामी का विवरण",
+  "name": "नाम",
+  "email": "ईमेल",
+  "location": "स्थान",
+  "phone_number": "फ़ोन नंबर",
+  "owner.name": "नाम: सौम्या",
+  "owner.email": "ईमेल: sowmyanm11@gmail.com",
+  "owner.location": "स्थान: बैंगलोर, भारत",
+  "owner.phone_number": "फ़ोन नंबर: +91 9876543210",
+  "pet_details": "पालतू जानवर का विवरण",
+  "breed": "नस्ल",
+  "age": "उम्र",
+  "color": "रंग",
+  "Every Tag Tells a Story. Let Yours Lead Them Home.": "हर टैग एक कहानी बताता है। आपका टैग उन्हें घर तक पहुँचाए।",
+  "Hey Hooman! It's Me!": "अरे इंसान! मैं हूँ!",
+  "Hi there, I'm the human behind Shiroo!": "नमस्ते, मैं शिरू का मालिक हूँ!",
+  "pet.name": "नाम: शिरू",
+  "pet.breed": "नस्ल: गोल्डन रिट्रीवर",
+  "pet.age": "उम्र: 2 साल",
+  "pet.color": "रंग: भूरा"
+}

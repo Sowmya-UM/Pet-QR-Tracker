@@ -1,0 +1,22 @@
+{
+  "owner_details": "ಮಾಲಕ ವಿವರಗಳು",
+  "name": "ಹೆಸರು",
+  "email": "ಇಮೇಲ್",
+  "location": "ಸ್ಥಳ",
+  "phone_number": "ದೂರವಾಣಿ ಸಂಖ್ಯೆ",
+  "owner.name": "ಹೆಸರು: ಸೌಮ್ಯ",
+  "owner.email": "ಇಮೇಲ್: sowmyanm11@gmail.com",
+  "owner.location": "ಸ್ಥಳ: ಬೆಂಗಳೂರು, ಭಾರತ",
+  "owner.phone_number": "ದೂರವಾಣಿ ಸಂಖ್ಯೆ: +91 9876543210",
+  "pet_details": "ಪಾಲುಪಕ್ಷಿ ವಿವರಗಳು",
+  "breed": "ಜಾತಿ",
+  "age": "ವಯಸ್ಸು",
+  "color": "ಬಣ್ಣ",
+  "Every Tag Tells a Story. Let Yours Lead Them Home.": "ಪ್ರತಿ ಟ್ಯಾಗ್‌ವೂ ಒಂದು ಕಥೆ ಹೇಳುತ್ತದೆ. ನಿಮ್ಮದನ್ನು ಮನೆಗೆ ಕರೆದೊಯ್ಯಲು ಬಿಡಿ.",
+  "Hey Hooman! It's Me!": "ಓ ಮನುಷ್ಯ! ನಾನೇನು!",
+  "Hi there, I'm the human behind Shiroo!": "ಹೇಗಿದ್ದೀರಾ, ನಾನು ಶಿರೂನ ಮಾಲೀಕರಾಗಿದ್ದೇನೆ!",
+  "pet.name": "ಹೆಸರು: ಶಿರೂ",
+  "pet.breed": "ಜಾತಿ: ಗೋಲ್ಡನ್ ರಿಟ್ರೀವರ್",
+  "pet.age": "ವಯಸ್ಸು: 2 ವರ್ಷ",
+  "pet.color": "ಬಣ್ಣ: ಕಂದು"
+}
