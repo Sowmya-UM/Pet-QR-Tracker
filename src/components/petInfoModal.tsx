@@ -136,10 +136,10 @@ const handleAllow = () => {
         This app needs access to your location to continue.
       </Modal.Body>
       <Modal.Footer>
-        <Button variant="secondary" onClick={onClose}>
+        <Button variant="outline-success" onClick={onClose}>
           Cancel
         </Button>
-        <Button variant="primary" onClick={handleAllow}>
+        <Button variant="success" onClick={handleAllow}>
           Allow
         </Button>
       </Modal.Footer>
